@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "axsm": "https://www.axsome.com/vocab#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "schema:identifier",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+
+    "Company": "schema:Corporation",
+    "legalName": "schema:legalName",
+    "tickerSymbol": "schema:tickerSymbol",
+    "stockExchange": "schema:exchange",
+    "headquarters": "schema:address",
+    "industry": "schema:industry",
+
+    "Product": "schema:Drug",
+    "brandName": "schema:nonProprietaryName",
+    "genericName": "schema:activeIngredient",
+    "indication": "schema:indication",
+    "mechanismOfAction": {
+      "@id": "axsm:mechanismOfAction",
+      "@type": "xsd:string"
+    },
+    "therapeuticArea": {
+      "@id": "axsm:therapeuticArea",
+      "@type": "xsd:string"
+    },
+    "regulatoryStatus": {
+      "@id": "axsm:regulatoryStatus",
+      "@type": "xsd:string"
+    },
+    "productSite": {
+      "@id": "axsm:productSite",
+      "@type": "schema:URL"
+    },
+    "hcpSite": {
+      "@id": "axsm:hcpSite",
+      "@type": "schema:URL"
+    },
+    "prescribingInformation": {
+      "@id": "axsm:prescribingInformation",
+      "@type": "schema:URL"
+    },
+    "medicationGuide": {
+      "@id": "axsm:medicationGuide",
+      "@type": "schema:URL"
+    },
+
+    "PipelineCandidate": "axsm:PipelineCandidate",
+    "candidateCode": {
+      "@id": "axsm:candidateCode",
+      "@type": "xsd:string"
+    },
+    "developmentPhase": {
+      "@id": "axsm:developmentPhase",
+      "@type": "xsd:string"
+    },
+    "designations": {
+      "@id": "axsm:designations",
+      "@type": "xsd:string",
+      "@container": "@set"
+    },
+
+    "regulator": {
+      "@id": "axsm:regulator",
+      "@type": "xsd:string"
+    },
+    "FDA": "axsm:FDA",
+    "EMA": "axsm:EMA",
+    "HealthCanada": "axsm:HealthCanada",
+    "SEC": "axsm:SEC",
+
+    "investorRelations": {
+      "@id": "axsm:investorRelations",
+      "@type": "schema:URL"
+    },
+    "pressReleases": {
+      "@id": "axsm:pressReleases",
+      "@type": "schema:URL"
+    },
+    "secFilings": {
+      "@id": "axsm:secFilings",
+      "@type": "schema:URL"
+    },
+    "rss": "schema:rssFeed",
+
+    "Auvelity": "axsm:Auvelity",
+    "Sunosi": "axsm:Sunosi",
+    "Symbravo": "axsm:Symbravo",
+    "AXS-05": "axsm:AXS-05",
+    "AXS-12": "axsm:AXS-12",
+    "AXS-14": "axsm:AXS-14"
+  }
+}

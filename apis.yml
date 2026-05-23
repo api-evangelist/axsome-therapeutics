@@ -1,0 +1,199 @@
+aid: axsome-therapeutics
+url: https://raw.githubusercontent.com/api-evangelist/axsome-therapeutics/refs/heads/main/apis.yml
+name: Axsome Therapeutics
+type: Index
+kind: contract
+access: 3rd-Party
+position: Consuming
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+description: >-
+  Axsome Therapeutics (NASDAQ: AXSM) is a biopharmaceutical company developing
+  and delivering novel therapies for the management of central nervous system
+  (CNS) disorders. Headquartered at One World Trade Center, New York, Axsome
+  markets three FDA-approved products — Auvelity (dextromethorphan-bupropion)
+  for major depressive disorder, Sunosi (solriamfetol) for excessive daytime
+  sleepiness in narcolepsy and obstructive sleep apnea, and Symbravo
+  (meloxicam-rizatriptan) for the acute treatment of migraine — and is
+  advancing a pipeline including AXS-05 for Alzheimer's disease agitation and
+  smoking cessation, AXS-12 (reboxetine) for narcolepsy, and AXS-14
+  (esreboxetine) for fibromyalgia. Axsome operates a corporate website and
+  product / HCP microsites but does not expose a public developer API surface;
+  this profile catalogs corporate, product, regulatory, and investor
+  touchpoints rather than programmatic interfaces.
+tags:
+  - Biopharmaceuticals
+  - Biotechnology
+  - Pharmaceuticals
+  - Healthcare
+  - Life Sciences
+  - Neuroscience
+  - Central Nervous System
+  - Depression
+  - Migraine
+  - Narcolepsy
+  - Alzheimers Disease Agitation
+  - Fibromyalgia
+  - Smoking Cessation
+  - Clinical Pipeline
+  - FDA Approved
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+common:
+  - type: Website
+    url: https://www.axsome.com/
+  - type: About
+    url: https://www.axsome.com/about/
+  - type: Products
+    url: https://www.axsome.com/products/
+  - type: Pipeline
+    url: https://www.axsome.com/pipeline/
+  - type: Science
+    url: https://www.axsome.com/science/
+  - type: Publications
+    url: https://www.axsome.com/publications/
+  - type: MedicalInformation
+    url: https://www.axsome.com/medical-information-us/
+  - type: MedicalInformationCanada
+    url: https://www.axsome.com/medical-information-canada/
+  - type: ExpandedAccessPolicy
+    url: https://www.axsome.com/expanded-access-policy/
+  - type: Careers
+    url: https://www.axsome.com/careers/
+  - type: Investors
+    url: https://www.axsome.com/investors/
+  - type: NewsRoom
+    url: https://www.axsome.com/news-events/
+  - type: RSS
+    url: https://www.axsome.com/feed/
+  - type: ContactUs
+    url: https://www.axsome.com/contact-us/
+  - type: PrivacyPolicy
+    url: https://www.axsome.com/privacy-notice/
+  - type: TermsOfService
+    url: https://www.axsome.com/terms-of-use/
+  - type: StateDisclosures
+    url: https://www.axsome.com/state-disclosures/
+  - type: IntellectualProperty
+    url: https://www.axsome.com/intellectual-property/
+  - type: ManagementTeam
+    url: https://www.axsome.com/management-team/
+  - type: BoardOfDirectors
+    url: https://www.axsome.com/board-of-directors/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/axsome-therapeutics
+  - type: StockSymbol
+    url: https://www.nasdaq.com/market-activity/stocks/axsm
+  - type: SECFilings
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579428&type=10-K
+  - type: Vocabulary
+    url: https://raw.githubusercontent.com/api-evangelist/axsome-therapeutics/refs/heads/main/vocabulary/axsome-therapeutics-vocabulary.yml
+  - type: JSONLD
+    url: https://raw.githubusercontent.com/api-evangelist/axsome-therapeutics/refs/heads/main/json-ld/axsome-therapeutics-context.jsonld
+  - type: ProductsList
+    data:
+      - name: Auvelity
+        genericName: Dextromethorphan and Bupropion
+        indication: Major Depressive Disorder (MDD) in adults
+        status: FDA Approved
+        productSite: https://www.auvelity.com
+        hcpSite: https://www.auvelityhcp.com
+        notes: Approved by the FDA in August 2022; oral NMDA receptor antagonist and sigma-1 receptor agonist combined with a CYP2D6 inhibitor.
+      - name: Sunosi
+        genericName: Solriamfetol
+        indication: Excessive daytime sleepiness associated with narcolepsy or obstructive sleep apnea (OSA) in adults
+        status: FDA Approved
+        productSite: https://www.sunosi.com
+        hcpSite: https://www.sunosihcp.com
+        notes: Dopamine and norepinephrine reuptake inhibitor (DNRI); also approved in Canada and the European Union (EMA SmPC).
+      - name: Symbravo
+        genericName: Meloxicam and Rizatriptan
+        indication: Acute treatment of migraine with or without aura in adults
+        status: FDA Approved
+        productSite: https://www.symbravo.com
+        hcpSite: https://www.symbravohcp.com
+        notes: FDA approved January 2025; multi-mechanistic, oral fixed-dose combination of an NSAID (meloxicam) and a 5-HT1B/1D receptor agonist (rizatriptan).
+  - type: PipelineList
+    data:
+      - name: AXS-05
+        components: Dextromethorphan and Bupropion
+        indication: Agitation associated with dementia due to Alzheimer's disease; smoking cessation
+        status: Approved for Alzheimer's disease agitation; in development for additional indications
+        mechanism: NMDA receptor antagonist and sigma-1 receptor agonist (dextromethorphan); CYP2D6 inhibitor and DNRI (bupropion)
+      - name: AXS-12
+        genericName: Reboxetine
+        indication: Narcolepsy (cataplexy and excessive daytime sleepiness)
+        status: Investigational; FDA Orphan Drug Designation for narcolepsy
+        mechanism: Selective norepinephrine reuptake inhibitor (NRI)
+      - name: AXS-14
+        genericName: Esreboxetine
+        indication: Fibromyalgia
+        status: Investigational
+        mechanism: Selective norepinephrine reuptake inhibitor (NRI), single enantiomer of reboxetine
+  - type: ConditionsInFocus
+    data:
+      - name: Depression
+        url: https://www.axsome.com/depression/
+      - name: Migraine
+        url: https://www.axsome.com/migraine/
+      - name: Alzheimer's Disease Agitation
+        url: https://www.axsome.com/alzheimers-disease-agitation/
+      - name: Excessive Daytime Sleepiness
+        url: https://www.axsome.com/excessive-daytime-sleepiness/
+      - name: Narcolepsy
+        url: https://www.axsome.com/narcolepsy/
+      - name: Fibromyalgia
+        url: https://www.axsome.com/fibromyalgia/
+      - name: Smoking Cessation
+        url: https://www.axsome.com/smoking-cessation/
+  - type: Address
+    data:
+      - street: One World Trade Center
+        city: New York
+        state: NY
+        postalCode: '10007'
+        country: USA
+  - type: Features
+    data:
+      - name: CNS Therapeutic Focus
+        description: Exclusive focus on central nervous system disorders spanning psychiatric, neurologic, and sleep-wake conditions.
+      - name: Multi-Mechanistic Small Molecules
+        description: Portfolio leverages combinations and single enantiomers acting on NMDA, sigma-1, monoamine reuptake, TAAR1, 5-HT, and GABA targets.
+      - name: Commercial Stage with Three Approved Products
+        description: Auvelity, Sunosi, and Symbravo are commercially marketed in the United States with sales force and patient support infrastructure.
+      - name: Active Late-Stage Pipeline
+        description: Pipeline candidates AXS-05, AXS-12, and AXS-14 address Alzheimer's disease agitation, narcolepsy, fibromyalgia, and smoking cessation.
+      - name: Investor Disclosure
+        description: Quarterly earnings, SEC filings (10-K, 10-Q, 8-K), webcasts, presentations, and analyst coverage published on the corporate site and EDGAR.
+      - name: Medical Information Services
+        description: U.S. and Canada medical-information request channels for healthcare professionals and patients.
+  - type: UseCases
+    data:
+      - name: Healthcare Professional Prescribing
+        description: HCP microsites for each marketed product provide prescribing information, dosing, safety, and access support.
+      - name: Patient Access and Adherence
+        description: Patient-facing brand sites with medication guides, copay assistance, and condition education.
+      - name: Investor Relations
+        description: Public disclosures, regulatory filings, and press releases for shareholders, analysts, and financial-data consumers.
+      - name: Scientific Communication
+        description: Publications, congress presentations, and medical-affairs touchpoints for the clinical and scientific community.
+      - name: Clinical Trial Engagement
+        description: Expanded Access Policy and trial-related communications for investigators and patients seeking access to investigational therapies.
+  - type: Integrations
+    data:
+      - name: U.S. Food and Drug Administration (FDA)
+        description: Regulatory submissions and approvals for NDA, sNDA, and post-marketing commitments covering Auvelity, Sunosi, Symbravo, and AXS-05.
+      - name: European Medicines Agency (EMA)
+        description: Sunosi (solriamfetol) maintains EMA authorization with SmPC and PIL published on the EMA website.
+      - name: Health Canada
+        description: Sunosi (solriamfetol) is approved in Canada with English and French product monographs and prescribing information.
+      - name: NASDAQ / U.S. SEC
+        description: Listed on NASDAQ as AXSM; periodic and current reports filed via EDGAR.
+      - name: Specialty Pharmacy Networks
+        description: U.S. distribution of branded CNS therapies through specialty and retail pharmacy partners.
+      - name: Patient Support and Copay Programs
+        description: Brand-specific patient support, copay assistance, and access services delivered via HCP and patient microsites.
+apis: []

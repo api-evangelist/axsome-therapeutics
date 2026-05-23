@@ -1,0 +1,183 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Axsome Therapeutics
+  description: >-
+    Domain vocabulary for Axsome Therapeutics, a biopharmaceutical company
+    focused on the central nervous system (CNS). This vocabulary catalogs
+    marketed products, pipeline candidates, therapeutic areas, mechanisms of
+    action, and corporate / regulatory touchpoints. Axsome does not currently
+    expose a public developer API surface, so the vocabulary is organized
+    around the company's clinical, commercial, and disclosure footprint rather
+    than around HTTP resources.
+  created: "2026-05-23"
+  modified: "2026-05-23"
+
+organizationalProfile:
+  legalName: Axsome Therapeutics, Inc.
+  ticker: AXSM
+  exchange: NASDAQ
+  industry: Biopharmaceuticals
+  therapeuticFocus: Central Nervous System (CNS)
+  headquarters:
+    street: One World Trade Center
+    city: New York
+    state: NY
+    postalCode: "10007"
+    country: USA
+  website: https://www.axsome.com/
+  contact: https://www.axsome.com/contact-us/
+
+products:
+  - name: Auvelity
+    genericName: Dextromethorphan and Bupropion
+    indication: Major Depressive Disorder (MDD) in adults
+    therapeuticArea: Depression
+    mechanism:
+      - NMDA receptor antagonist
+      - Sigma-1 receptor agonist
+      - CYP2D6 inhibitor
+    regulatoryStatus: FDA Approved
+    productSite: https://www.auvelity.com
+    hcpSite: https://www.auvelityhcp.com
+  - name: Sunosi
+    genericName: Solriamfetol
+    indication: Excessive daytime sleepiness associated with narcolepsy or obstructive sleep apnea (OSA) in adults
+    therapeuticArea: Sleep-Wake Disorders
+    mechanism:
+      - Dopamine-norepinephrine reuptake inhibitor (DNRI)
+    regulatoryStatus: FDA Approved; EMA Authorized; Health Canada Approved
+    productSite: https://www.sunosi.com
+    hcpSite: https://www.sunosihcp.com
+  - name: Symbravo
+    genericName: Meloxicam and Rizatriptan
+    indication: Acute treatment of migraine with or without aura in adults
+    therapeuticArea: Migraine
+    mechanism:
+      - NSAID (COX-2 selective; meloxicam)
+      - 5-HT1B/1D receptor agonist (rizatriptan)
+    regulatoryStatus: FDA Approved
+    productSite: https://www.symbravo.com
+    hcpSite: https://www.symbravohcp.com
+
+pipeline:
+  - code: AXS-05
+    components: Dextromethorphan and Bupropion
+    indications:
+      - Agitation associated with dementia due to Alzheimer's disease
+      - Smoking cessation
+    mechanism:
+      - NMDA receptor antagonist
+      - Sigma-1 receptor agonist
+      - DNRI / CYP2D6 inhibitor
+    status: Approved for Alzheimer's disease agitation; in development for additional indications
+  - code: AXS-12
+    genericName: Reboxetine
+    indications:
+      - Narcolepsy
+    mechanism:
+      - Selective norepinephrine reuptake inhibitor (NRI)
+    designations:
+      - FDA Orphan Drug Designation (narcolepsy)
+    status: Investigational
+  - code: AXS-14
+    genericName: Esreboxetine
+    indications:
+      - Fibromyalgia
+    mechanism:
+      - Selective norepinephrine reuptake inhibitor (NRI), single enantiomer
+    status: Investigational
+
+therapeuticAreas:
+  - name: Depression
+    products: [Auvelity]
+    pipeline: []
+  - name: Migraine
+    products: [Symbravo]
+    pipeline: []
+  - name: Alzheimer's Disease Agitation
+    products: []
+    pipeline: [AXS-05]
+  - name: Excessive Daytime Sleepiness
+    products: [Sunosi]
+    pipeline: []
+  - name: Narcolepsy
+    products: [Sunosi]
+    pipeline: [AXS-12]
+  - name: Fibromyalgia
+    products: []
+    pipeline: [AXS-14]
+  - name: Smoking Cessation
+    products: []
+    pipeline: [AXS-05]
+
+mechanismsOfAction:
+  - id: nmda-antagonist
+    label: NMDA Receptor Antagonist
+    description: Antagonism of the N-methyl-D-aspartate glutamate receptor; implicated in rapid-acting antidepressant and neuroprotective effects.
+  - id: sigma1-agonist
+    label: Sigma-1 Receptor Agonist
+    description: Activation of sigma-1 chaperone receptor, modulating neuroplasticity and intracellular signaling.
+  - id: dnri
+    label: Dopamine-Norepinephrine Reuptake Inhibitor (DNRI)
+    description: Inhibition of dopamine and norepinephrine transporters, promoting wakefulness and mood effects.
+  - id: nri
+    label: Norepinephrine Reuptake Inhibitor (NRI)
+    description: Selective inhibition of the norepinephrine transporter.
+  - id: cyp2d6-inhibitor
+    label: CYP2D6 Inhibitor
+    description: Inhibits hepatic CYP2D6 metabolism to extend exposure of a co-administered substrate.
+  - id: cox-nsaid
+    label: NSAID (COX-2 Selective)
+    description: Non-steroidal anti-inflammatory drug with COX-2 selective inhibition.
+  - id: 5ht1b-1d-agonist
+    label: 5-HT1B/1D Receptor Agonist
+    description: Triptan-class serotonergic agonist used in acute migraine therapy.
+  - id: taar1-agonist
+    label: Trace Amine-Associated Receptor 1 (TAAR1) Agonist
+    description: Modulation of TAAR1 implicated in monoaminergic neurotransmission.
+
+regulatoryFootprint:
+  - authority: U.S. Food and Drug Administration (FDA)
+    interactions:
+      - Auvelity NDA approval
+      - Sunosi NDA approval
+      - Symbravo NDA approval (January 2025)
+      - AXS-05 sNDA approval for Alzheimer's disease agitation
+      - AXS-12 Orphan Drug Designation (narcolepsy)
+  - authority: European Medicines Agency (EMA)
+    interactions:
+      - Sunosi (solriamfetol) marketing authorization with SmPC and PIL
+  - authority: Health Canada
+    interactions:
+      - Sunosi product monograph (English and French)
+  - authority: U.S. Securities and Exchange Commission (SEC)
+    interactions:
+      - 10-K, 10-Q, 8-K filings under CIK 0001579428
+      - NASDAQ listing as AXSM
+
+investorAndDisclosureSurface:
+  - kind: PressReleases
+    url: https://www.axsome.com/news-events/
+  - kind: RSS
+    url: https://www.axsome.com/feed/
+  - kind: SECFilings
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579428&type=10-K
+  - kind: Webcasts
+    url: https://www.axsome.com/webcasts-presentations/
+  - kind: AnalystCoverage
+    url: https://www.axsome.com/analyst-coverage/
+  - kind: ShareholderServices
+    url: https://www.axsome.com/shareholder-services/
+
+publicDeveloperSurface:
+  status: none
+  notes: >-
+    Axsome Therapeutics does not publish a developer portal, public OpenAPI
+    specification, SDKs, CLI, webhooks API, or partner API at this time. The
+    corporate site is a WordPress-backed marketing presence with a standard
+    RSS feed; HCP and patient microsites for Auvelity, Sunosi, and Symbravo
+    publish prescribing and educational content but not programmatic
+    interfaces. Programmatic access to Axsome data is therefore limited to
+    third-party regulatory data sources (FDA Drugs@FDA, EMA, Health Canada,
+    EDGAR, NASDAQ market data, ClinicalTrials.gov).
