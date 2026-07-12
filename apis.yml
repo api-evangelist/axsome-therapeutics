@@ -43,6 +43,8 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
+  - type: DomainSecurity
+    url: security/axsome-therapeutics-domain-security.yml
   - type: Website
     url: https://www.axsome.com/
   - type: About
