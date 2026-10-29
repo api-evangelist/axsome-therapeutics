@@ -1,4 +1,4 @@
-# Axsome Therapeutics (axsome-therapeutics)
+# Axsome Therapeutics
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,41 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Profile for Axsome Therapeutics (NASDAQ: AXSM) in the API Evangelist network. Axsome is a New York–headquartered biopharmaceutical company developing and commercializing novel therapies for central nervous system (CNS) disorders.
+Axsome Therapeutics (NASDAQ: AXSM) is a biopharmaceutical company developing and delivering novel therapies for the management of central nervous system (CNS) disorders. Headquartered at One World Trade Center, New York, Axsome markets three FDA-approved products — Auvelity (dextromethorphan-bupropion) for major depressive disorder, Sunosi (solriamfetol) for excessive daytime sleepiness in narcolepsy and obstructive sleep apnea, and Symbravo (meloxicam-rizatriptan) for the acute treatment of migraine — and is advancing a pipeline including AXS-05 for Alzheimer's disease agitation and smoking cessation, AXS-12 (reboxetine) for narcolepsy, and AXS-14 (esreboxetine) for fibromyalgia. Axsome operates a corporate website and product / HCP microsites but does not expose a public developer API surface; this profile catalogs corporate, product, regulatory, and investor touchpoints rather than programmatic interfaces.
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=axsome-therapeutics-api-evangelist&utm_content=repo)
+**Areas:** Biopharmaceutical · Biotechnology · Pharmaceuticals · Healthcare · Life Sciences · Neuroscience · Central Nervous System · Depression · Migraine · Narcolepsy · Alzheimers Disease Agitation · Fibromyalgia
 
-## Marketed Products
+## Axsome Therapeutics on APIs.io
 
-| Brand | Active Ingredient | Indication | Status |
-|---|---|---|---|
-| Auvelity | Dextromethorphan and Bupropion | Major Depressive Disorder (MDD) in adults | FDA Approved |
-| Sunosi | Solriamfetol | Excessive daytime sleepiness in narcolepsy or OSA in adults | FDA Approved; EMA; Health Canada |
-| Symbravo | Meloxicam and Rizatriptan | Acute treatment of migraine with or without aura in adults | FDA Approved (Jan 2025) |
+Everything profiled for Axsome Therapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/axsome-therapeutics/](https://apis.io/providers/axsome-therapeutics/)** — or go straight to one of the APIs or properties below.
 
-## Clinical Pipeline
+### Published properties
 
-| Code | Generic / Components | Indication(s) | Status |
-|---|---|---|---|
-| AXS-05 | Dextromethorphan and Bupropion | Alzheimer's disease agitation (approved); smoking cessation | Approved for AD agitation; in development for additional indications |
-| AXS-12 | Reboxetine | Narcolepsy | Investigational (FDA Orphan Drug Designation) |
-| AXS-14 | Esreboxetine | Fibromyalgia | Investigational |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Therapeutic Focus
+#### JSON-LD (1)
 
-Central nervous system (CNS) disorders, including Depression, Migraine, Alzheimer's Disease Agitation, Excessive Daytime Sleepiness, Narcolepsy, Fibromyalgia, and Smoking Cessation.
+Linked-data contexts for the provider's vocabulary.
 
-## Public Developer Surface
+- [Axsome Therapeutics Context](https://apis.io/jsonld/axsome-therapeutics/axsome-therapeutics-context/)
 
-Axsome does not publish a developer portal, public OpenAPI specification, SDKs, CLI, webhooks API, or partner API. This profile documents the corporate, product, regulatory, and investor surface rather than programmatic interfaces. Where Axsome data is available programmatically, it is via third-party sources (FDA Drugs@FDA, EMA, Health Canada, SEC EDGAR, NASDAQ market data, ClinicalTrials.gov).
+#### Vocabulary (1)
 
-## Artifacts
+The provider's domain terms, defined.
 
-- `apis.yml` — apis.json 0.19 profile cataloging products, pipeline, conditions, regulatory footprint, and investor surface.
-- `vocabulary/axsome-therapeutics-vocabulary.yml` — Domain vocabulary covering products, pipeline candidates, therapeutic areas, mechanisms of action, and disclosure surface.
-- `json-ld/axsome-therapeutics-context.jsonld` — JSON-LD context mapping Axsome's corporate, product, and pipeline vocabulary to schema.org and an Axsome namespace.
+- [Axsome Therapeutics Vocabulary](https://apis.io/vocabularies/axsome-therapeutics/axsome-therapeutics-vocabulary/)
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Axsome Therapeutics Domain Security](https://apis.io/security/axsome-therapeutics/axsome-therapeutics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.axsome.com/)
+- [Terms of service](https://www.axsome.com/terms-of-use/)
+- [Privacy policy](https://www.axsome.com/privacy-notice/)
+
+## API Evangelist rating
+
+**Kin Score 14.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 14.7 |
+| Contract governance | 13.6 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/axsome-therapeutics/](https://apis.io/providers/axsome-therapeutics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Axsome Therapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/axsome-therapeutics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
